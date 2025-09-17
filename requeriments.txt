@@ -3,6 +3,9 @@ transformers==4.56.0
 torch==2.8.0
 numpy==2.3.1
 pandas==2.3.2
-fastapi==0.116.2
+fastapi
+fastapi[standard]
 uvicorn[standard]
-pydantic_settings
+pydantic-settings[dotenv]
+pydantic
+python-multipart  
